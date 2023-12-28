@@ -6,7 +6,7 @@ const Text = ({ q, textAnswer, onTextChange }) => {
       <h1>{q.id}</h1>
       <h2>Question Type: {q.type}</h2>
       <div>
-        {/* Add your text input components here */}
+
         <textarea
           value={textAnswer}
           onChange={onTextChange}
